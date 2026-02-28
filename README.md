@@ -78,5 +78,4 @@ Add rate change indicators (increase/decrease)
 Deploy with custom domain
 
 🌍 Live Demo
-
-Coming soon — deployment planned via Netlify.
+https://zetafx.netlify.app/
