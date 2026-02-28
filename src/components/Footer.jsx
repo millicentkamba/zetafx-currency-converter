@@ -1,8 +1,7 @@
 function Footer() {
   return (
-    <footer className="py-6 px-6 text-center text-xs text-gray-400 border-t border-gray-100">
-      <p>© 2025 ZetaFX ·</p>
-      <p>your trusted partner</p>
+    <footer className="bg-blue-600 py-6 px-6 text-center text-xs text-white border-t border-blue-700">
+      <p>© 2025 ZetaFX · POWERED BY EXCHANGE RATE </p>
     </footer>
   )
 }

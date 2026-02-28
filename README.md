@@ -1,16 +1,82 @@
-# React + Vite
+ZetaFX – Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern currency converter web application built with React 18 and Tailwind CSS as my frontend capstone project.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ZetaFX is a clean, responsive currency conversion tool designed to make international shopping easier.
 
-## React Compiler
+As someone who frequently shops from foreign online stores, I often struggled to quickly calculate the true cost in my local currency. ZetaFX solves that problem by providing fast, accurate, and user-friendly currency conversions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Features
 
-## Expanding the ESLint configuration
+Convert between 14 major global currencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live exchange rates powered by ExchangeRate-API
+
+One-click Swap Currency button
+
+Input validation and error handling
+
+Fully responsive design (mobile + desktop)
+
+Clean, minimal UI built with Tailwind CSS
+
+🛠 Tech Stack
+
+React 18
+
+Tailwind CSS
+
+Vite
+
+ExchangeRate-API (exchangerate-api.com)
+
+⚙️ How to Run Locally
+
+Clone the repository:
+
+git clone <your-repo-url>
+
+Navigate into the project folder:
+
+cd zetaFX
+
+Install dependencies:
+
+npm install
+
+Create a .env file in the root directory and add:
+
+VITE_EXCHANGE_RATE_API_KEY=your_api_key_here
+
+Start the development server:
+
+npm run dev
+
+Open your browser and visit:
+
+http://localhost:5173
+⚠️ Known Limitations
+
+Currently supports only 14 currencies
+
+Exchange rates update once per day (not real-time streaming)
+
+No conversion history or saved favorites yet
+
+📈 Future Improvements
+
+Add conversion history tracking
+
+Add more supported currencies
+
+Add dark mode toggle
+
+Add rate change indicators (increase/decrease)
+
+Deploy with custom domain
+
+🌍 Live Demo
+
+Coming soon — deployment planned via Netlify.
