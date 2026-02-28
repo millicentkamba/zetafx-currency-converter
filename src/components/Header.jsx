@@ -1,4 +1,6 @@
 {/* this is the header for ZETAFX */}
+{/* Top navigation bar */}
+{/* Stays fixed at the top for easy navigation */}
 
 function Header() {
   return (

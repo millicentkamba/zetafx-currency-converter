@@ -3,6 +3,9 @@ import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import Footer from "./components/Footer"
 
+// currencies list stays constant
+// defined outside App to avoid recreating on each render
+
 const currencies = [
   { code: "USD", name: "US Dollar" },
   { code: "EUR", name: "Euro" },
@@ -35,7 +38,7 @@ function App() {
   // state for the result
   const [result, setResult] = useState(null)
 
-  // fetch exchange rates automatically when fromCurrency changes
+ // fetch exchange rates when fromCurrency changes
   useEffect(() => {
     setLoading(true)
     setError("")

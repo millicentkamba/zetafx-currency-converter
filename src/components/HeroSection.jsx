@@ -1,3 +1,6 @@
+{/* ZETAFX First section users see on page load /}
+{/ Left side shows main text. Right side shows key features. */}
+
 function HeroSection() {
   return (
     <section className="bg-white py-14 px-6">
