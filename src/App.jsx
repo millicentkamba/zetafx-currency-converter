@@ -201,6 +201,23 @@ function App() {
         </div>
       </section>
 
+      {/* about section */}
+      <section id="about" className="py-12 px-6 bg-white border-t border-gray-100">
+        <div className="max-w-lg mx-auto text-center">
+          <h3 className="text-xl font-bold text-gray-800 mb-3">About ZetaFX</h3>
+          <p className="text-sm text-gray-500 leading-relaxed">
+            ZetaFX is a currency converter I built to solve a real problem I have —
+            when shopping online from foreign stores, I needed a quick way to know
+            what something actually costs in my currency. This app uses live exchange
+            rates to convert between 14 major currencies instantly. No account needed,
+            no fees, just fast and accurate conversions.
+          </p>
+          <p className="text-sm text-gray-400 mt-4">
+           Powered by ExchangeRate-API.
+          </p>
+        </div>
+      </section>
+
       {/* footer */}
       <Footer />
 
