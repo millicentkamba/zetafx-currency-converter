@@ -89,5 +89,5 @@ As someone who frequently shops from foreign online stores, I often struggled to
 
 ---
 
-## Author
+
 
