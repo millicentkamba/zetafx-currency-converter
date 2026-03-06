@@ -1,81 +1,93 @@
-ZetaFX – Currency Converter
+# ZetaFX - Currency Converter
 
-A modern currency converter web application built with React 18 and Tailwind CSS as my frontend capstone project.
+A modern currency converter web application built with **React 18** and **Tailwind CSS** as my frontend capstone project.
 
-🚀 Project Overview
+---
+
+## Project Overview
 
 ZetaFX is a clean, responsive currency conversion tool designed to make international shopping easier.
 
 As someone who frequently shops from foreign online stores, I often struggled to quickly calculate the true cost in my local currency. ZetaFX solves that problem by providing fast, accurate, and user-friendly currency conversions.
 
-✨ Features
+---
 
-Convert between 14 major global currencies
+## Features
 
-Live exchange rates powered by ExchangeRate-API
+- Convert between 14 major global currencies
+- Live exchange rates powered by ExchangeRate-API
+- One-click Swap Currency button
+- Input validation and error handling
+- Fully responsive design (mobile + desktop)
+- Clean, minimal UI built with Tailwind CSS
 
-One-click Swap Currency button
+---
 
-Input validation and error handling
+## Tech Stack
 
-Fully responsive design (mobile + desktop)
+| Technology | Purpose |
+|---|---|
+| React 18 | Component-based UI |
+| Tailwind CSS | Styling and responsive layout |
+| Vite | Development and build tool |
+| ExchangeRate-API | Live currency exchange rates |
 
-Clean, minimal UI built with Tailwind CSS
+---
 
-🛠 Tech Stack
+## How to Run Locally
 
-React 18
+1. Clone the repository
+   ```bash
+   git clone https://github.com/millicentkamba/zetafx-currency-converter.git
+   ```
 
-Tailwind CSS
+2. Navigate into the project folder
+   ```bash
+   cd zetafx-currency-converter
+   ```
 
-Vite
+3. Install dependencies
+   ```bash
+   npm install
+   ```
 
-ExchangeRate-API (exchangerate-api.com)
+4. Create a `.env` file in the root directory and add:
+   ```
+   VITE_EXCHANGE_RATE_API_KEY=your_api_key_here
+   ```
 
-⚙️ How to Run Locally
+5. Start the development server
+   ```bash
+   npm run dev
+   ```
 
-Clone the repository:
+6. Open your browser and visit `http://localhost:5173`
 
-git clone <your-repo-url>
+---
 
-Navigate into the project folder:
+## Known Limitations
 
-cd zetaFX
+- Currently supports only 14 currencies
+- Exchange rates update once per day, not real-time
+- No conversion history or saved favourites yet
 
-Install dependencies:
+---
 
-npm install
+## Future Improvements
 
-Create a .env file in the root directory and add:
+- Add conversion history tracking
+- Add more supported currencies
+- Add dark mode toggle
+- Add rate change indicators
+- Deploy with custom domain
 
-VITE_EXCHANGE_RATE_API_KEY=your_api_key_here
+---
 
-Start the development server:
+## Live Demo
 
-npm run dev
+[https://zetafx.netlify.app](https://zetafx.netlify.app)
 
-Open your browser and visit:
+---
 
-http://localhost:5173
-⚠️ Known Limitations
+## Author
 
-Currently supports only 14 currencies
-
-Exchange rates update once per day (not real-time streaming)
-
-No conversion history or saved favorites yet
-
-📈 Future Improvements
-
-Add conversion history tracking
-
-Add more supported currencies
-
-Add dark mode toggle
-
-Add rate change indicators (increase/decrease)
-
-Deploy with custom domain
-
-🌍 Live Demo
-https://zetafx.netlify.app/
